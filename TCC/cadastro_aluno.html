@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <title>Cadastro do Aluno - B.A.P.</title>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="libarra">
+            <img class="icon" src="img/logo_bap.png">
+        <span>
+            <button class="button">Login</button>
+            <button class="button">Cadastro</button>
+         </span>
+    </div>
+    </header>
+    <div class="cadastro">
+        <forms class="form-cadastro">
+            <fieldset>
+                <div class="input-group">
+                    <div><p>Nome Completo</p></div>
+                    <div><input type="text" name="nome" placeholder="Digite seu nome aqui!" /></div>
+                    <div><p>RA</p></div>
+                    <div><input type="text" name="RA" placeholder="Digite seu RA aqui!" /></div>
+                    <div><p>Selecione seu curso</p></div>
+                    <div><select name="curso">
+                        <option disabled selected>Selecione seu curso</option>
+                        <option>Desenvolvimento de Sistemas</option>
+                        <option>Administração</option>
+                        <option>Mecânica</option>
+                    </select></div>
+                    <div><p>EMAIL Institucional</p></div>
+                    <div><input type="email" name="email" placeholder="Digite seu EMAIL aqui!" /></div>
+                    <div><p>Senha</p></div>
+                    <div><input type="password" name="senha" placeholder="Insira uma senha"  /></div>
+                </div>
+                <div>
+                    <input type="submit" name="cadastrar" value="Cadastrar" class="button" />
+                    <p><a href="">Já possui uma conta? Clique aqui!</a></p>
+                </div>
+            </fieldset>
+        </forms>
+    </div>
+    <footer class="rodape">
+        <p>
+            Termos de Uso
+       </p>
+        <p>
+            Quem somos nós
+        </p>
+        <p>
+            Política de Privacidade
+        </p>
+        <p>
+             Central de Ajuda
+        </p>
+</footer>
+</body>
+</html>
